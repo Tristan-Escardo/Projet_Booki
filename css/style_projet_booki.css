@@ -28,10 +28,14 @@ a
 	color: black;
 }
 
+header, section
+{
+	margin-left: 1%;
+}
+
 body
 {
 	font-family: 'Raleway', sans-serif;
-	margin-left: 30px;
 }
 
 .entete
@@ -184,7 +188,7 @@ button
 
 .titre_hebergements
 {
-	padding: 20px 0 0 35px;
+	padding: 20px 0 0 25px;
 	font-size: 22px;
 	width: 100%;
 }
@@ -306,7 +310,6 @@ button
 .texte_populaire
 {
 	padding-left: 20px;
-	width: 100%;
 }
 
 .sous_texte_populaire
@@ -408,12 +411,27 @@ button
 	object-fit: cover;
 }
 
+footer
+{
+	background-color: #F2F2F2;
+	padding: 25px 0 0 40px;
+	margin-top: 50px;
+}
+
+.paragraphe_footer
+{
+	width: 226px;
+	padding: 0 150px 50px 0;
+}
+
+
 @media screen and (max-width: 768px)
 {
-	body
+	header, section
 	{
 		margin: 0px;
 	}
+
 	.entete
 	{
 		flex-direction: column;
@@ -433,7 +451,7 @@ button
 
 	.hebergements, .activites
 	{
-		border-bottom: 3px solid #F2F2F2;
+		border-bottom: none;
 		padding: 20px 13% 15px 13%;
 	}
 
@@ -478,6 +496,13 @@ button
 		width: 85%;
 		height: 240px;
 		justify-content: space-between;
+		margin-top: 0px;
+	}
+
+	.titre_filtres
+	{
+		position: relative;
+		top: 10px;
 	}
 
 	.filtres
@@ -500,13 +525,15 @@ button
 
 	.conteneur_titre_populaire
 	{
-		width: 86%;
-		padding: 20px 0 0 30px;
+		width: 90%;
+		padding: 20px 0 10px 20px;
 	}
 
 	.case_populaire
 	{
 		margin: 0 0 15px 20px;
+		height: 130px;
+		width: 85%;
 	}
 
 	.section_hebergements_marseille
@@ -520,15 +547,19 @@ button
 
 	.titre_hebergements
 	{
-		padding: 30px 0 0 10px;
+		padding: 30px 0 0 20px;
 		width: 80%;
 	}
+
 	.hebergement
 	{
 		width: 87%;
 	}
 
-
+	.titre_activites
+	{
+		margin: 10px 0 30px 20px;
+	}
 	.conteneur_activites
 	{
 		flex-direction: column;
@@ -536,8 +567,13 @@ button
 
 	.case_xlarge_activite, .case_large_activite, .case_medium_activite, .case_small_activite
 	{
-		width: 90%;
-		height: 250px;
+		width: 95%;
+		height: 200px;
+		margin-left: 20px;
 	}
 
+	.image_xlarge_activite, .image_large_activite, .image_medium_activite, .image_small_activite
+	{
+		height: 75%;
+	}
 }
