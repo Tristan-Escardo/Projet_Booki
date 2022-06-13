@@ -148,6 +148,27 @@ button
 	bottom: 3px;
 }
 
+.filtres:hover
+{
+	cursor: pointer;
+	background-color: #DEEBFF;
+	border-color: #DEEBFF;
+	font-size: 20px;
+	transition: background 1s;
+}
+
+.filtres:hover .icone_filtres
+{
+	transform: rotate(360deg);
+	transition: transform 1s;
+}
+
+.filtres:hover .texte_filtres
+{
+	color: #0065FC;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: color 0.8s, font 0.8s;
+}
 .texte_filtres
 {
 	padding: 0 16px 0 6px;
@@ -535,6 +556,10 @@ footer
 		margin: 0;
 	}
 
+	.filtres:hover
+	{
+		font-size: 17px;
+	}
 	.information
 	{
 		margin-top: 20px;
