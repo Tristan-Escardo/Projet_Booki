@@ -17,15 +17,21 @@
 	display: flex;
 }
 
-.f-w-bold, h1, em
+.f-w-bold
 {
-	font-weight: bold;
+	font-weight: 800;
 }
 
 a
 {
 	text-decoration: none;
 	color: black;
+}
+
+.italique
+{
+	font-style: italic;
+	font-weight: bold;
 }
 
 header, section
@@ -78,10 +84,11 @@ body
 	margin-top: 52px;
 }
 
-.suite_titre
+.suite_premier_titre
 {
 	font-size: 16px;
 	font-weight: 400;
+	padding-top: 10px;
 }
 
 .icone_localisation
@@ -188,7 +195,7 @@ button
 	border-radius: 30px;
 	margin-right: 10px;
 	font-size: 11px;
-	padding: 5px 3px 2px 9px;
+	padding: 5px 2px 2px 8px;
 }
 
 .texte_information
@@ -507,7 +514,7 @@ footer
 		margin: 30px 0 30px 0;
 	}
 
-	.suite_titre
+	.suite_premier_titre
 	{
 		position: relative;
 		top: 10px;
