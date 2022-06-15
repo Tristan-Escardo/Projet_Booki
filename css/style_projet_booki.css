@@ -131,6 +131,7 @@ button
 .titre_filtres
 {
 	margin-right: 10px;
+	font-size: 16px;
 }
 
 .filtres
@@ -342,18 +343,21 @@ button
 
 .texte_populaire
 {
-	padding-left: 20px;
+	padding-left: 15px;
+	height: 15px;
+	width: 92%;
 }
 
 .sous_texte_populaire
 {
 	font-size: small;
-	padding-left: 20px;
+	padding-left: 15px;
+	height: 15px;
 }
 
 .etoiles_populaires
 {
-	padding: 15px 0 0 20px;
+	padding: 15px 0 0 15px;
 	font-size: 11px;
 }
 
@@ -462,7 +466,7 @@ footer
 	font-size: 17px;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {
 	header, section
 	{
@@ -478,7 +482,7 @@ footer
 	.logo_booki
 	{
 		padding: 0px;
-		margin: 15px 0 0 46%;
+		margin: 15px 0 0 43%;
 	}
 
 	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .hebergements, .activites
@@ -489,7 +493,7 @@ footer
 	.hebergements, .activites
 	{
 		border-bottom: 3px solid #F2F2F2;
-		padding: 20px 13% 15px 13%;
+		padding: 20px 12% 15px 12%;
 	}
 
 	.hebergements:hover, .activites:hover
@@ -609,13 +613,13 @@ footer
 
 	.titre_hebergements
 	{
-		padding: 30px 0 0 20px;
+		padding: 30px 0 0 7%;
 		width: 80%;
 	}
 
 	.hebergement
 	{
-		width: 87%;
+		width: 85%;
 	}
 
 	.titre_activites
