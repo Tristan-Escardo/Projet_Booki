@@ -484,7 +484,7 @@ footer
 	margin-top: 50px;
 }
 
-.paragraphe_footer
+footer div
 {
 	width: 67%;
 	padding: 0 90px 40px 0;
@@ -495,7 +495,7 @@ footer
 	font-size: 17px;
 }
 
-@media screen and (max-width: 1234px) and (min-width: 768px)
+@media screen and (max-width: 992px) and (min-width: 768px)
 {
 	#hebergements_populaires
 	{
@@ -537,7 +537,7 @@ footer
 	.entete
 	{
 		flex-direction: column;
-		display: inline;
+		margin-bottom: 75px;
 	}
 
 	.logo_booki
@@ -675,12 +675,12 @@ footer
 	.titre_hebergements
 	{
 		padding: 30px 0 0 7%;
-		width: 80%;
 	}
 
 	.lien_hebergement
 	{
 		width: 85%;
+		margin: 15px;
 	}
 
 	.titre_activites
@@ -712,7 +712,7 @@ footer
 		padding-bottom: 20px;
 	}
 
-	.paragraphe_footer
+	footer div
 	{
 		padding: 0;
 	}
