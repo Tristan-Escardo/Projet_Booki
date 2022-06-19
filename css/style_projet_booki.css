@@ -325,9 +325,8 @@ button
 
 .lien_case_populaire
 {
-	width: 80%;
 	height: 22%;
-	margin-left: 30px;
+	margin: 0 20px 0 20px;
 }
 
 .case_populaire
@@ -387,7 +386,6 @@ button
 
 #section_activites
 {
-	justify-content: space-around;
 	padding-top: 25px;
 }
 
@@ -472,10 +470,10 @@ button
 	object-fit: cover;
 }
 
-.conteneur_cases_activite > a
+/* .conteneur_cases_activite > a
 {
 
-}
+} */
 
 footer
 {
@@ -658,9 +656,8 @@ footer div
 
 	.lien_case_populaire
 	{
-		margin: 0 0 20px 20px;
+		margin-top: 20px;
 		height: 120px;
-		width: 85%;
 	}
 
 	.section_hebergements_marseille
@@ -691,6 +688,7 @@ footer div
 	{
 		flex-direction: column;
 		width: 95%;
+		height: initial;
 	}
 
 	.case_xlarge_activite, .case_large_activite, .case_medium_activite, .case_small_activite
@@ -708,8 +706,8 @@ footer div
 	footer
 	{
 		flex-direction: column;
-		margin-top: 1080px;
 		padding-bottom: 20px;
+		margin-top: 20px;
 	}
 
 	footer div
