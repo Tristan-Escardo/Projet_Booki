@@ -48,6 +48,12 @@ body
 	padding: 40px 0 0 15px;
 }
 
+.conteneur_nav_heb_act
+{
+	width: 90%;
+	justify-content: flex-end;
+}
+
 .hebergements, .activites
 {
 	font-size: 16px;
@@ -59,18 +65,6 @@ body
 	border-top: 2px solid #0065FC;
 	color: #0065FC;
 	padding-top: 38px;
-}
-
-.vide_logo_menu_nav
-{
-	padding-top: 40px;
-	flex-basis: 65%;
-}
-
-.vide_hebergements_activites
-{
-	padding-top: 40px;
-	flex-basis: 20px;
 }
 
 .premier_titre_gras
@@ -113,7 +107,7 @@ button
 	border-radius: 0 10px 10px 0;
 }
 
-.icone_button
+.icone_bouton
 {
 	display: none;
 }
@@ -250,7 +244,7 @@ button
 {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
-	height: 60%;
+	height: 58%;
 	object-fit: cover;
 }
 
@@ -301,7 +295,7 @@ button
 
 .conteneur_titre_populaire
 {
-	width: 80%;
+	width: 85%;
 	height: 7%;
 	padding: 10px 0 0 35px;
 }
@@ -310,11 +304,6 @@ button
 {
 	font-size: 22px;
 	width: 100%;
-}
-
-.vide_titre_populaires_etoile
-{
-	flex-basis: 50px;
 }
 
 .etoile_titre_populaire
@@ -392,14 +381,14 @@ button
 .titre_activites
 {
 	font-size: 22px;
-	margin: 20px 0 20px 10px;
+	margin: 20px 0 20px 12px;
 }
 
 .conteneur_activites
 {
-	width: 99%;
+	width: 100%;
 	height: 350px;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .conteneur_activites > a
@@ -541,7 +530,7 @@ footer h3
 		margin: 15px 0 0 43%;
 	}
 
-	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .hebergements, .activites
+	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .hebergements, .activites, #hebergements_populaires, #plus_populaires
 	{
 		width: 100%;
 	}
@@ -558,7 +547,7 @@ footer h3
 		border-bottom: 3px solid #0065FC;
 	}
 
-	.vide_hebergements_activites, .vide_logo_menu_nav, .texte_button, .vide_titre_populaires_etoile
+	.texte_bouton
 	{
 		display: none;
 	}
@@ -598,7 +587,7 @@ footer h3
 		right: 10px;
 	}
 
-	.icone_button
+	.icone_bouton
 	{
 		display: initial;
 	}
@@ -635,13 +624,11 @@ footer h3
 	#hebergements_populaires
 	{
 		flex-direction: column-reverse;
-		width: 100%;
 	}
 
 	#plus_populaires
 	{
 		border-radius: 0;
-		width: 100%;
 		padding: 0 0 30px 0;
 	}
 
