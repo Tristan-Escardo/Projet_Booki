@@ -187,6 +187,7 @@ button
 #hebergements_populaires
 {
 	margin-top: 20px;
+	width: 100%;
 	
 }
 
@@ -557,6 +558,7 @@ footer h3
 	{
 		border-top: none;
 		border-bottom: 3px solid #0065FC;
+		padding: 20px 12% 15px 12%;
 	}
 
 	.texte_bouton
