@@ -43,13 +43,13 @@ header, section
 	justify-content: flex-end;
 }
 
-.navigation
+.conteneur_nav_heb_act > a
 {
 	font-size: 16px;
 	padding: 40px 25px 0 25px;
 }
 
-.navigation:hover
+.conteneur_nav_heb_act > a:hover
 {
 	border-top: 2px solid #0065FC;
 	color: #0065FC;
@@ -296,7 +296,7 @@ button
 	width: 100%;
 }
 
-.etoile_titre_populaire
+.conteneur_titre_populaire > .fa-star
 {
 	padding-top: 15px;
 	font-size: 20px;
@@ -365,14 +365,14 @@ button
 .titre_activites
 {
 	font-size: 22px;
-	margin: 20px 0 30px 12px;
+	margin: 20px 0 20px 12px;
 }
 
 .conteneur_activites
 {
-	width: 98%;
 	height: 350px;
-	justify-content: space-between;
+	justify-content: space-around;
+	margin-left: initial;
 }
 
 .conteneur_activites > a
@@ -498,13 +498,14 @@ footer h3
 
 	.conteneur_titre_populaire
 	{
-		width: 90%;
+		width: 32%;
+		align-items: center;
 	}
 
-	.titre_plus_populaires
+	.conteneur_titre_populaire > .fa-star
 	{
-		width: 93%;
-		padding-left: 40px;
+		padding: initial;
+		font-size: 25px;
 	}
 
 	.lien_case_populaire
@@ -535,13 +536,45 @@ footer h3
 		height: 100%;
 	}
 
+	.titre_hebergements
+	{
+		width: initial;
+	}
+
+	.titre_activites
+	{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.conteneur_activites
+	{
+		flex-wrap: wrap;
+		height: initial;
+		align-items: center;
+	}
+
+	.conteneur_activites > a, .conteneur_activites > div
+	{
+		height: 350px;
+	}
+
+	.conteneur_activites > div:last-child
+	{
+		flex-direction: row;
+		justify-content: space-between;
+		width: 95%;
+		height: initial;
+	}
+
 	footer
 	{
 		width: 100%;
+		margin-top: initial;
 	}
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 768px)
 {
 	header, section
 	{
@@ -560,18 +593,18 @@ footer h3
 		margin: 15px 0 0 43%;
 	}
 
-	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .navigation, #hebergements_populaires, #plus_populaires
+	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .conteneur_nav_heb_act > a, #hebergements_populaires, #plus_populaires
 	{
 		width: 100%;
 	}
 
-	.navigation
+	.conteneur_nav_heb_act > a
 	{
 		border-bottom: 3px solid #F2F2F2;
 		padding: 20px 12% 15px 12%;
 	}
 
-	.navigation:hover
+	.conteneur_nav_heb_act > a:hover
 	{
 		border-top: none;
 		border-bottom: 3px solid #0065FC;
