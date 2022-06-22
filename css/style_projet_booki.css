@@ -187,8 +187,7 @@ button
 #hebergements_populaires
 {
 	margin-top: 20px;
-	width: 100%;
-	
+	justify-content: space-between;
 }
 
 .section_hebergements_marseille
@@ -210,12 +209,13 @@ button
 .hebergements_marseille
 {
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .lien_hebergement
 {
 	margin: 2%;
-	width: 240px;
+	width: 220px;
 	height: 200px;
 }
 
@@ -365,14 +365,14 @@ button
 .titre_activites
 {
 	font-size: 22px;
-	margin: 20px 0 20px 12px;
+	margin: 20px 0 30px 12px;
 }
 
 .conteneur_activites
 {
-	width: 100%;
+	width: 98%;
 	height: 350px;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .conteneur_activites > a
@@ -483,16 +483,28 @@ footer h3
 		width: 100%;
 	}
 
-	.section_hebergements_marseille, #plus_populaires
+	.section_hebergements_marseille
 	{
 		width: 100%;
 		margin-bottom: 20px;
 		align-items: center;
 	}
 
+	#plus_populaires
+	{
+		margin: 0 0 20px 0;
+		align-items: center;
+	}
+
 	.conteneur_titre_populaire
 	{
 		width: 90%;
+	}
+
+	.titre_plus_populaires
+	{
+		width: 93%;
+		padding-left: 40px;
 	}
 
 	.lien_case_populaire
@@ -521,6 +533,11 @@ footer h3
 	.hebergements_marseille
 	{
 		height: 100%;
+	}
+
+	footer
+	{
+		width: 100%;
 	}
 }
 
@@ -665,6 +682,11 @@ footer h3
 		border: none;
 		border-radius: 0;
 		width: 100%;
+	}
+
+	.hebergements_marseille
+	{
+		padding: initial;
 	}
 
 	.titre_hebergements
