@@ -43,13 +43,13 @@ header, section
 	justify-content: flex-end;
 }
 
-.hebergements, .activites
+.navigation
 {
 	font-size: 16px;
 	padding: 40px 25px 0 25px;
 }
 
-.hebergements:hover, .activites:hover
+.navigation:hover
 {
 	border-top: 2px solid #0065FC;
 	color: #0065FC;
@@ -543,18 +543,18 @@ footer h3
 		margin: 15px 0 0 43%;
 	}
 
-	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .hebergements, .activites, #hebergements_populaires, #plus_populaires
+	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .navigation, #hebergements_populaires, #plus_populaires
 	{
 		width: 100%;
 	}
 
-	.hebergements, .activites
+	.navigation
 	{
 		border-bottom: 3px solid #F2F2F2;
 		padding: 20px 12% 15px 12%;
 	}
 
-	.hebergements:hover, .activites:hover
+	.navigation:hover
 	{
 		border-top: none;
 		border-bottom: 3px solid #0065FC;
