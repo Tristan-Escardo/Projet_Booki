@@ -195,7 +195,7 @@ button
 	flex-direction: column;
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
-	width: 67%;
+	width: 70%;
 	margin: 2% 0 2% 0;
 }
 
@@ -209,14 +209,13 @@ button
 .hebergements_marseille
 {
 	flex-wrap: wrap;
-	justify-content: space-around;
-	padding-right: 1%;
+	margin: 2%;
 }
 
 .lien_hebergement
 {
 	margin: 2%;
-	width: 220px;
+	width: 29%;
 	height: 200px;
 }
 
@@ -282,6 +281,7 @@ button
 	border-radius: 20px 20px 20px 20px;
 	margin: 2%;
 	padding-bottom: 55px;
+	width: 25%;
 }
 
 .conteneur_titre_populaire
@@ -372,7 +372,6 @@ button
 .conteneur_activites
 {
 	height: 350px;
-	justify-content: space-around;
 	margin-left: initial;
 }
 
@@ -397,6 +396,8 @@ button
 {
 	display: flex;
 	flex-direction: column;
+	width: 23%;
+	margin: 0 3%;
 }
 
 .case_large_activite
@@ -431,8 +432,7 @@ button
 
 .conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
 {
-	width: 280px;
-	margin-bottom: 35px;
+	margin-bottom: 15%;
 	background-color: white;
 	border-radius: 20px;
 	box-shadow: 2px 2px 30px -18px black;
@@ -494,6 +494,7 @@ footer h3
 	#plus_populaires
 	{
 		margin: 0 0 20px 0;
+		width: 100%;
 		align-items: center;
 	}
 
