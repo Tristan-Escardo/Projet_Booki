@@ -389,7 +389,7 @@ button
 {
 	padding-left: 20px;
 	position: relative;
-	bottom: 5px;
+	bottom: 9px;
 }
 
 .conteneur_activites > div
@@ -402,7 +402,7 @@ button
 
 .case_large_activite
 {
-	height: 50%;
+	height: 47%;
 }
 
 .image_large_activite
@@ -573,6 +573,7 @@ footer h3
 	.case_large_activite
 	{
 		width: initial;
+		height: 50%;
 	}
 
 	.case_medium_activite
