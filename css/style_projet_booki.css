@@ -553,20 +553,29 @@ footer h3
 	{
 		flex-wrap: wrap;
 		height: initial;
-		align-items: center;
+		justify-content: end;
+		
 	}
+
+	.conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
+	{
+		margin-bottom: 5%;
+	}	
 
 	.conteneur_activites > a, .conteneur_activites > div
 	{
 		height: 350px;
+		width: 45%;
 	}
 
-	.conteneur_activites > div:last-child
+	.case_large_activite
 	{
-		flex-direction: row;
-		justify-content: space-between;
-		width: 95%;
-		height: initial;
+		width: initial;
+	}
+
+	.case_medium_activite
+	{
+		height: 40%;
 	}
 
 	footer
@@ -751,6 +760,17 @@ footer h3
 		flex-direction: column;
 		width: 95%;
 		height: initial;
+	}
+
+	.conteneur_activites > a, .conteneur_activites > div
+	{
+		width: 100%;
+		margin: initial;
+	}
+
+	.conteneur_activites > div
+	{
+		margin-top: 2%;
 	}
 
 	.conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
