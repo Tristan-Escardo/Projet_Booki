@@ -464,6 +464,8 @@ footer h3
 	font-size: 17px;
 }
 
+
+/* Taille tablettes */
 @media screen and (max-width: 992px) and (min-width: 768px)
 {
 
@@ -559,7 +561,7 @@ footer h3
 
 	.conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
 	{
-		margin-bottom: 5%;
+		margin-bottom: 8%;
 	}	
 
 	.conteneur_activites > a, .conteneur_activites > div
@@ -591,6 +593,7 @@ footer h3
 	}
 }
 
+/* Taille smartphones */
 @media screen and (max-width: 768px)
 {
 	header, section
@@ -770,7 +773,7 @@ footer h3
 
 	.conteneur_activites > div
 	{
-		margin-top: 2%;
+		margin-top: 15s%;
 	}
 
 	.conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
