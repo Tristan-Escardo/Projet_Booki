@@ -280,7 +280,6 @@ button
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
 	margin: 2%;
-	padding-bottom: 55px;
 	width: 25%;
 }
 
@@ -331,8 +330,7 @@ button
 	font-weight: bold;
 	position: relative;
 	left: 15px;
-	bottom: 5px;
-	height: 10%;
+	bottom: 5%;
 	width: 100%;
 }
 
@@ -341,8 +339,7 @@ button
 	font-weight: bold;
 	position: relative;
 	left: 15px;
-	bottom: 5px;
-	height: 10%;
+	bottom: 5%;
 	width: 92%;
 }
 
@@ -350,11 +347,14 @@ button
 {
 	font-size: small;
 	padding-left: 15px;
+	position: relative;
+	bottom: 15%;
+	margin-bottom: 16%;
 }
 
 .etoiles_populaires
 {
-	padding: 15px 0 0 15px;
+	padding-left: 15px;
 	font-size: 11px;
 }
 
@@ -520,7 +520,7 @@ footer h3
 
 	.image_populaire
 	{
-		height: 150px;
+		height: 200px;
 		width: 200px;
 	}
 
@@ -528,11 +528,29 @@ footer h3
 	{
 		align-items: stretch;
 		width: 90%;
+		font-size: 20px;
 	}
 
 	.hotel_le_soleil_du, .texte_populaire
 	{
 		text-align: justify;
+	}
+
+	.hotel_le_soleil_du
+	{
+		width: 29%;
+	}
+
+	.sous_texte_populaire
+	{
+		bottom: 10%;
+		margin-bottom: 5%;
+		font-size: 17px;
+	}
+
+	.etoiles_populaires
+	{
+		font-size: 17px;
 	}
 	
 	.hebergements_marseille
@@ -715,6 +733,7 @@ footer h3
 	{
 		border-radius: 0;
 		padding: 0 0 30px 0;
+		margin: initial;
 	}
 
 	.conteneur_titre_populaire
@@ -729,6 +748,11 @@ footer h3
 		height: 120px;
 	}
 
+	.sous_texte_populaire, .etoiles_populaires
+	{
+		bottom: 20%;
+	}
+
 	.section_hebergements_marseille
 	{
 		padding: 0;
@@ -741,6 +765,7 @@ footer h3
 	.hebergements_marseille
 	{
 		padding: initial;
+		margin: initial;
 	}
 
 	.titre_hebergements
@@ -751,7 +776,7 @@ footer h3
 
 	.lien_hebergement
 	{
-		width: 85%;
+		width: 90%;
 		margin: 15px;
 	}
 
@@ -774,7 +799,7 @@ footer h3
 
 	.conteneur_activites > div
 	{
-		margin-top: 15s%;
+		margin-top: 15%;
 	}
 
 	.conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
