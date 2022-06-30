@@ -331,15 +331,6 @@ button
 	position: relative;
 	left: 15px;
 	bottom: 5%;
-	width: 100%;
-}
-
-.hotel_le_soleil_du
-{
-	font-weight: bold;
-	position: relative;
-	left: 15px;
-	bottom: 5%;
 	width: 92%;
 }
 
@@ -398,6 +389,7 @@ button
 	flex-direction: column;
 	width: 23%;
 	margin: 0 3%;
+	justify-content: space-between;
 }
 
 .case_large_activite
@@ -432,7 +424,6 @@ button
 
 .conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
 {
-	margin-bottom: 15%;
 	background-color: white;
 	border-radius: 20px;
 	box-shadow: 2px 2px 30px -18px black;
@@ -531,14 +522,9 @@ footer h3
 		font-size: 20px;
 	}
 
-	.hotel_le_soleil_du, .texte_populaire
+	.texte_populaire
 	{
 		text-align: justify;
-	}
-
-	.hotel_le_soleil_du
-	{
-		width: 29%;
 	}
 
 	.sous_texte_populaire
@@ -657,7 +643,7 @@ footer h3
 
 	#recherche_filtres_info
 	{
-		margin-left: 20px;
+		margin-left: 5%;
 	}
 
 	.premier_titre
@@ -751,6 +737,11 @@ footer h3
 	.sous_texte_populaire, .etoiles_populaires
 	{
 		bottom: 20%;
+	}
+
+	.sous_texte_populaire
+	{
+		margin-bottom: 2%;
 	}
 
 	.section_hebergements_marseille
