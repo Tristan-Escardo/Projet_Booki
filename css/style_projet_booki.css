@@ -277,6 +277,7 @@ button
 {
 	flex-direction: column;
 	justify-content: space-around;
+	align-items: center;
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
 	margin: 2%;
@@ -286,14 +287,13 @@ button
 .conteneur_titre_populaire
 {
 	width: 85%;
-	height: 7%;
-	padding: 10px 0 0 35px;
+	padding-left: 3%;
 }
 
 .titre_plus_populaires
 {
 	font-size: 22px;
-	width: 100%;
+	width: 89%;
 }
 
 .conteneur_titre_populaire > .fa-star
@@ -304,12 +304,12 @@ button
 
 .lien_case_populaire
 {
-	height: 22%;
+	width: 85%;
+	height: 20%;
 	background-color: white;
 	border: 5px solid white;
 	border-radius: 20px;
 	box-shadow: 2px 2px 30px -20px black;
-	margin: 0 20px 0 20px;
 }
 
 .image_populaire
@@ -329,7 +329,7 @@ button
 {
 	font-weight: bold;
 	position: relative;
-	left: 15px;
+	left: 10%;
 	bottom: 5%;
 	width: 92%;
 }
@@ -337,15 +337,15 @@ button
 .sous_texte_populaire
 {
 	font-size: small;
-	padding-left: 15px;
+	padding-left: 10%;
 	position: relative;
 	bottom: 15%;
-	margin-bottom: 16%;
+	margin-bottom: 9%;
 }
 
 .etoiles_populaires
 {
-	padding-left: 15px;
+	padding-left: 10%;
 	font-size: 11px;
 }
 
@@ -768,13 +768,14 @@ footer h3
 	.lien_hebergement
 	{
 		width: 90%;
-		margin: 15px;
+		margin: 3%;
 	}
 
 	.titre_activites
 	{
-		margin: 0 0 30px 20px;
+		margin: 0 0 30px 5%;
 	}
+
 	.conteneur_activites
 	{
 		flex-direction: column;
@@ -790,14 +791,19 @@ footer h3
 
 	.conteneur_activites > div
 	{
-		margin-top: 15%;
+		margin: 5% 0 5%;
+	}
+
+	.case_large_activite, .case_medium_activite
+	{
+		margin-bottom: 5%;
 	}
 
 	.conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
 	{
 		width: 95%;
 		height: 200px;
-		margin-left: 20px;
+		margin-left: 5%;
 	}
 
 	.image_xlarge_activite, .image_large_activite, .image_medium_activite, .image_small_activite
