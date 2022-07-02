@@ -368,7 +368,7 @@ button
 
 .conteneur_activites
 {
-	height: 350px;
+	height: 425px;
 	margin-left: initial;
 }
 
@@ -386,7 +386,7 @@ button
 {
 	padding-left: 20px;
 	position: relative;
-	bottom: 9px;
+	bottom: 1.5%;
 }
 
 .conteneur_activites > div
