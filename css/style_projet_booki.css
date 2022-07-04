@@ -28,7 +28,7 @@ header, section
 	margin-left: 2%;
 }
 
-.entete
+nav
 {
 	height: 60px;
 }
@@ -630,14 +630,14 @@ footer h3
 
 
 /* Taille smartphones */
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {
 	header, section
 	{
 		margin: 0px;
 	}
 
-	.entete
+	nav
 	{
 		flex-direction: column;
 		margin-bottom: 75px;
@@ -649,7 +649,7 @@ footer h3
 		margin: 15px 0 0 43%;
 	}
 
-	.conteneur_nav_heb_act, .titre_filtres, .entete, .information, .conteneur_nav_heb_act > a, #hebergements_populaires, #plus_populaires
+	.conteneur_nav_heb_act, .titre_filtres, nav, .information, .conteneur_nav_heb_act > a, #hebergements_populaires, #plus_populaires
 	{
 		width: 100%;
 	}
