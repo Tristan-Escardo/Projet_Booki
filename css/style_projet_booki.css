@@ -314,7 +314,6 @@ button
 
 .lien_case_populaire > picture
 {
-	height: 140px;
 	width: 30%;
 }
 
@@ -329,6 +328,7 @@ button
 .conteneur_texte_populaire
 {
 	flex-direction: column;
+	width: 50%;
 }
 
 .texte_populaire
@@ -346,12 +346,11 @@ button
 	padding-left: 10%;
 	position: relative;
 	bottom: 15%;
-	margin-bottom: 9%;
 }
 
 .etoiles_populaires
 {
-	padding-left: 10%;
+	padding: 0 0 5% 10%;
 	font-size: 11px;
 }
 
@@ -769,6 +768,11 @@ footer h3
 		margin: initial;
 		margin-top: 3%;
 		width: 90%;
+	}
+
+	.lien_case_populaire
+	{
+		height: 140px;
 	}
 
 	.sous_texte_populaire, .etoiles_populaires
