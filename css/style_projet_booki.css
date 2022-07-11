@@ -1,33 +1,6 @@
 /*ESCARDO Tristan*/
 
 
-
-.bleu_booki
-{
-	color: #0065FC;
-}
-
-.gris_booki
-{
-	color: #F2F2F2;
-}
-
-.d-flex
-{
-	display: flex;
-}
-
-.f-w-bold
-{
-	font-weight: 800;
-}
-
-
-header, section
-{
-	margin-left: 2%;
-}
-
 nav
 {
 	height: 60px;
@@ -460,6 +433,13 @@ footer h3
 	font-size: 17px;
 }
 
+@media screen and (min-width: 1200px) 
+{
+	.lien_case_populaire > picture
+	{
+		height: 135px;
+	}
+}
 
 /* Taille tablettes */
 @media screen and (max-width: 992px) and (min-width: 767px)
@@ -617,7 +597,7 @@ footer h3
 	{
 		height: 65%;
 	}
-	
+
 	footer
 	{
 		width: 100%;
