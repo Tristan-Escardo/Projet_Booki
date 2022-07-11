@@ -38,6 +38,32 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
+ .bleu_booki
+ {
+   color: #0065FC;
+ }
+ 
+ .gris_booki
+ {
+   color: #F2F2F2;
+ }
+ 
+ .d-flex
+ {
+   display: flex;
+ }
+ 
+ .f-w-bold
+ {
+   font-weight: 800;
+ }
+ 
+ 
+ header, section
+ {
+   margin-left: 2%;
+ }
+ 
 h1 {
   font-size: 2em;
   margin: 0.67em 0;

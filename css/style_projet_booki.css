@@ -280,7 +280,7 @@ button
 	background-color: #F2F2F2;
 	border-radius: 20px 20px 20px 20px;
 	margin: 2%;
-	width: 25%;
+	width: 30%;
 }
 
 .conteneur_titre_populaire
@@ -367,32 +367,26 @@ button
 
 .conteneur_activites
 {
-	height: 425px;
+	height: 500px;
 	margin-left: initial;
 }
 
 .conteneur_activites > a
 {
 	height: 100%;
+	width: 25%;
 }
 
 .image_xlarge_activite
 {
-	height: 85%;
-}
-
-.texte_activite
-{
-	padding-left: 20px;
-	position: relative;
-	bottom: 1.5%;
+	height: 87%;
 }
 
 .conteneur_activites > div
 {
 	display: flex;
 	flex-direction: column;
-	width: 23%;
+	width: 30%;
 	margin: 0 3%;
 	justify-content: space-between;
 }
@@ -404,7 +398,7 @@ button
 
 .image_large_activite
 {
-	height: 73%;
+	height: 77%;
 }
 
 .case_small_activite
@@ -414,7 +408,7 @@ button
 
 .image_small_activite
 {
-	height: 63%;
+	height: 70%;
 }
 
 .case_medium_activite
@@ -424,7 +418,7 @@ button
 
 .image_medium_activite
 {
-	height: 65%;
+	height: 70%;
 }
 
 .conteneur_activites > a, .case_large_activite, .case_medium_activite, .case_small_activite
@@ -439,6 +433,12 @@ button
 	width: 100%;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
+}
+
+
+.texte_activite
+{
+	padding-left: 7%;
 }
 
 footer
@@ -462,7 +462,7 @@ footer h3
 
 
 /* Taille tablettes */
-@media screen and (max-width: 992px) and (min-width: 768px)
+@media screen and (max-width: 992px) and (min-width: 767px)
 {
 	header, section
 	{
@@ -613,6 +613,11 @@ footer h3
 		height: 40%;
 	}
 
+	.image_large_activite, .image_medium_activite, .image_small_activite
+	{
+		height: 65%;
+	}
+	
 	footer
 	{
 		width: 100%;
@@ -766,9 +771,15 @@ footer h3
 		height: 140px;
 	}
 
-	.sous_texte_populaire, .etoiles_populaires
+	.conteneur_texte_populaire
 	{
-		bottom: 20%;
+		display: block;
+	}
+
+	.texte_populaire, .sous_texte_populaire, .etoiles_populaires
+	{
+		position: initial;
+		padding: 0 0 0 10px;
 	}
 
 	.section_hebergements_marseille
@@ -836,6 +847,12 @@ footer h3
 	.image_xlarge_activite, .image_large_activite, .image_medium_activite, .image_small_activite
 	{
 		height: 77%;
+	}
+
+	.texte_activite
+	{
+		position: relative;
+		bottom: 1.5%;
 	}
 
 	footer
